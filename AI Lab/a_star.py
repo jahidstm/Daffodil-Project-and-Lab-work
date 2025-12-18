@@ -11,7 +11,7 @@ def a_star_simple(grid, start, goal):
     directions = [(0,1),(1,0),(0,-1),(-1,0)]
 
     while open_list:
-        
+        #
         current = min(open_list, key=lambda x: g[x] + heuristic(x, goal))
 
        
